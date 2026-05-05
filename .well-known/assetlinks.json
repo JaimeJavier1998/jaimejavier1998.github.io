@@ -1,0 +1,8 @@
+[{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "com.example.mylocationplannerapp",
+    "sha256_cert_fingerprints": ["61:91:94:6D:8A:98:B4:8D:47:8B:2D:CC:66:F5:AE:32:87:BC:1F:DF:2F:09:73:03:D6:EE:4B:1A:D4:2B:EB:8A"]
+  }
+}]
