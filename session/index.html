@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Uniéndose a sesión...</title>
+    <script>
+        const path = window.location.pathname;
+        const sessionId = path.split('/').pop();
+        window.location.href = 'intent://jaimejavier1998.github.io/session/' + sessionId + '#Intent;scheme=https;package=com.example.mylocationplannerapp;end';
+    </script>
+</head>
+<body>
+    <p>Abriendo la app...</p>
+</body>
+</html>
